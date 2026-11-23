@@ -1,9 +1,0 @@
-DirectoryIndex index.php index.html
-Options -Indexes
-<FilesMatch "^(core\.php|\.htaccess)$">
-  Require all denied
-</FilesMatch>
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule ^data/ - [F,L]
-</IfModule>
